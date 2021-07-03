@@ -19,7 +19,7 @@ import java.util.ArrayList;
  */
 public class SubArrayWithGivenSum {
     public static ArrayList<Integer> getContinousSubArray(int[] arr, int n, int s){
-        int currSum = arr[0];
+        int currSum = 0;
         int start = 0;
         ArrayList<Integer> output = new ArrayList<Integer>();
         if(n == 1 && currSum == s){
@@ -27,28 +27,28 @@ public class SubArrayWithGivenSum {
             output.add(currSum);
             return output;
         }
-        for(int i=1;i<n;i++){
-
-            if(currSum > s && start <= i){
+        for(int i=0;i<n;i++){
+            currSum += arr[i];
+            while(currSum > s && start <= i){
                 currSum -= arr[start];
                 start ++;
             }
             if(currSum == s){
                 output.add(start+1);
-                output.add(i);
+                output.add(i+1);
                 return output;
             }
-            currSum += arr[i];
+
         }
         if(currSum == s){
             output.add(start+1);
             output.add(n);
             return output;
         }
-        return null;
+        return output;
     }
     public static void main(String[] args) {
-        int[] arr = {2,3};
-        System.out.println(getContinousSubArray(arr, arr.length, 5));
+        int[] arr = {135,101,170,125,79,159,163,65,106,146,82,28,162,92,196,143,28,37,192,5,103,154,93,183,22,117,119,96,48,127,172,139,70,113,68,100,36,95,104,12,123,134};
+        System.out.println(getContinousSubArray(arr, arr.length, 468));
     }
 }
