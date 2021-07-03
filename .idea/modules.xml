@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/InterviewCodingQuestions.iml" filepath="$PROJECT_DIR$/.idea/InterviewCodingQuestions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/customProblems/customProblems.iml" filepath="$PROJECT_DIR$/customProblems/customProblems.iml" />
     </modules>
   </component>
 </project>
