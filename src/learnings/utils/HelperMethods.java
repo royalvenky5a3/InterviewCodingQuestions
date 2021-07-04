@@ -9,4 +9,11 @@ public class HelperMethods {
         }
         System.out.println();
     }
+
+    public static void displayElementsFromArrayInt(int[] array, int length){
+        for(int ele: array){
+            System.out.print(ele + " ");
+        }
+        System.out.println();
+    }
 }

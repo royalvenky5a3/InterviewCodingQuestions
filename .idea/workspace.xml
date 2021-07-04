@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b702581-245e-4b19-8427-e978cb6f005d" name="Default Changelist" comment="missing number in array">
+    <list default="true" id="9b702581-245e-4b19-8427-e978cb6f005d" name="Default Changelist" comment="mergeTwoSortedArrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learnings/utils/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learnings/utils/HelperMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="learnings.customProblems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoSortedArrays">
+  <component name="RunManager" selected="Application.ReArrangeArraysAlternatively">
     <configuration name="CountTheTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learnings.arrays.CountTheTriplets" />
       <module name="InterviewCodingQuestions" />
@@ -104,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learnings.arrays.SubArrayWithGivenSum" />
+    <configuration name="ReArrangeArraysAlternatively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learnings.arrays.ReArrangeArraysAlternatively" />
       <module name="InterviewCodingQuestions" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReArrangeArraysAlternatively" />
         <item itemvalue="Application.MergeTwoSortedArrays" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.KandanesAlgorithm" />
         <item itemvalue="Application.CountTheTriplets" />
-        <item itemvalue="Application.SubArrayWithGivenSum" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625387694007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mergeTwoSortedArrays">
+      <created>1625398455865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625398455865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +192,8 @@
     <MESSAGE value="countTheTriplets" />
     <MESSAGE value="Kandanes Algorithm" />
     <MESSAGE value="missing number in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="missing number in array" />
+    <MESSAGE value="mergeTwoSortedArrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="mergeTwoSortedArrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
