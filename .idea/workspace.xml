@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b702581-245e-4b19-8427-e978cb6f005d" name="Default Changelist" comment="countTheTriplets">
+    <list default="true" id="9b702581-245e-4b19-8427-e978cb6f005d" name="Default Changelist" comment="missing number in array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="learnings.customProblems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KandanesAlgorithm">
+  <component name="RunManager" selected="Application.MergeTwoSortedArrays">
     <configuration name="CountTheTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learnings.arrays.CountTheTriplets" />
       <module name="InterviewCodingQuestions" />
@@ -78,6 +78,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learnings.arrays.MergeTwoSortedArrays" />
+      <module name="InterviewCodingQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learnings.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learnings.arrays.MissingNumber" />
+      <module name="InterviewCodingQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learnings.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learnings.arrays.SubArrayWithGivenSum" />
       <module name="InterviewCodingQuestions" />
@@ -93,6 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedArrays" />
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.KandanesAlgorithm" />
         <item itemvalue="Application.CountTheTriplets" />
         <item itemvalue="Application.SubArrayWithGivenSum" />
@@ -122,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625339229243</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Kandanes Algorithm">
+      <created>1625386422502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625386422502</updated>
+    </task>
+    <task id="LOCAL-00004" summary="missing number in array">
+      <created>1625387694007</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625387694007</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +182,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated java structure" />
     <MESSAGE value="countTheTriplets" />
-    <option name="LAST_COMMIT_MESSAGE" value="countTheTriplets" />
+    <MESSAGE value="Kandanes Algorithm" />
+    <MESSAGE value="missing number in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="missing number in array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
